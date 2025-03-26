@@ -15,7 +15,7 @@ module tb_counter_gen();
    reg 			   clk, rstn;
    wire [NBIT-1:0] 	   cnt;
 
-   counter_gen #(.NBIT(NBIT) ) dut(clk, rstn, cnt);
+   counter_gen dut(clk, rstn, cnt);
 
    initial begin
 
